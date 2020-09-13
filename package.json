@@ -1,0 +1,19 @@
+{
+  "name": "icon-stakeconomy",
+  "version": "1.0.0",
+  "description": "icon stake economy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackathonprojs/icon-stakeconomy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackathonprojs/icon-stakeconomy/issues"
+  },
+  "homepage": "https://github.com/hackathonprojs/icon-stakeconomy#readme"
+}
