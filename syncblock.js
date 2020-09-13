@@ -22,13 +22,27 @@ const iconService = new IconService(provider);
 
 async function test() {
   // Check the recent blocks
-  const block = await iconService.getLastBlock().execute();
+  //const block = await iconService.getLastBlock().execute();
+  const blockHeight = 6747351;
+  const block = await iconService.getBlockByHeight(blockHeight).execute();
   console.log(block.height);
-  // Output
-  // 237845
+
 
   const txList = block.getTransactions();
   console.log(txList);
+  console.log(txList.length);
+
+  txList.forEach(elem => {
+    // if (elem.data && elem.data.prep && elem.data.result) {
+    //   console.log("data.prep: ", elem.data.prep);
+    //   console.log("data.result: ", elem.data.result);
+    // }
+
+    if (elem.data && elem.data.method && elem.data.params) {
+      console.log("data.method: ", elem.data.method);
+      console.log("data.params: ", elem.data.params);
+    }
+  })
 }
 
 test();
