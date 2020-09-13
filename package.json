@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hackathonprojs/icon-stakeconomy/issues"
   },
-  "homepage": "https://github.com/hackathonprojs/icon-stakeconomy#readme"
+  "homepage": "https://github.com/hackathonprojs/icon-stakeconomy#readme",
+  "dependencies": {
+    "icon-sdk-js": "0.0.18"
+  }
 }
