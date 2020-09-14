@@ -4,6 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>Stake Here</title>
     <link rel="stylesheet" href="address.css">
+    <link rel="stylesheet" href="address_loader.css">
     <style>
       body {
         font-family: Helvetica,Arial,sans-serif;
@@ -11,6 +12,27 @@
         font-size: 15px;
       }
     </style>
+
+    <style>
+      html {
+        margin-top: 20px;
+        font-size: 100%;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color:azure;
+        background-color: #000;
+      }
+      
+      .loader-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        /*height: 100vh;*/
+        overflow: hidden;
+      }
+    </style>
+
   </head>
   <body>
     <div style="text-align: center;"><img class="crypto-logo" src="icx_favicon.ico"></div>
@@ -19,7 +41,7 @@
     <p style="text-align: center; font-weight: bold;">hxec79e9c1c882632688f8c8f9a07832bcabe8be8f</p>
     <p style="text-align: center;"><br>
     </p>
-    <div style="text-align: center;">
+    <div style="text-align: center; display: none;">
       <img src="qr-bicon01-2.png" alt="hxec79e9c1c882632688f8c8f9a07832bcabe8be8f"
         title="validator qr code" longdesc="hxec79e9c1c882632688f8c8f9a07832bcabe8be8f"
         class="md-whiteframe-z3">
@@ -31,6 +53,15 @@
       Waiting for the transaction to occur</p>
     <p style="text-align: center;"><br>
     </p>
+
+    <div class="loader-container">
+      <div class="Loader" data-text="Waiting">
+        <span class="Loader__Circle"></span>
+        <span class="Loader__Circle"></span>
+        <span class="Loader__Circle"></span>
+        <span class="Loader__Circle"></span>
+      </div>
+    </div>
     
   </body>
 </html>
