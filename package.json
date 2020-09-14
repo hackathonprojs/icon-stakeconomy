@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/hackathonprojs/icon-stakeconomy#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "icon-sdk-js": "0.0.18"
   }
 }
