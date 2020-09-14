@@ -359,8 +359,8 @@ a:hover {
 .img-5{
   position: absolute;
   display: block;
-  right: -70px;
-  top: -50px;
+  right: -120px;
+  top: 10px;
   z-index: 6;
   width: calc(60% + 70px);
   transform: translate3d(0, 0, 35px) perspective(100px) scale(0.5) rotate(0deg);
