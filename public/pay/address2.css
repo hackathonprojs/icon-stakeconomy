@@ -7,13 +7,30 @@
   width: 64px;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  height: 100%;
+  margin: 0;
+}
+
+.total-container {
   background: linear-gradient(230deg, #22e8b5, #e822cf, #222fe6, #a3b41e, #28ec41);
   background-size: 1000% 1000%;
 
   -webkit-animation: AnimationName 70s ease infinite;
   -moz-animation: AnimationName 70s ease infinite;
   animation: AnimationName 70s ease infinite;
+  height: 100%;
+}
+
+.total-container {
+  padding-top: 20px;
 }
 
 @-webkit-keyframes AnimationName {
