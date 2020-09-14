@@ -272,14 +272,15 @@ a:hover {
 .img-1{
   position: absolute;
   display: block;
-  left: -90px;
-  top: 15px;
+  left: -60PX;
+  top: -55px;
   z-index: 5;
   width: calc(80% + 100px);
   transform: translate3d(0, 0, 45px) perspective(100px);
   opacity: 1;
   pointer-events: auto;
   transition: transform 400ms 1200ms ease, opacity 400ms 1200ms ease;
+  width: 70%;
 }
 .pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-1 {
   opacity: 0;
@@ -339,14 +340,15 @@ a:hover {
 .img-4{
   position: absolute;
   display: block;
-  left: -52px;
-  top: 75px;
+  left: -60px;
+  top: -55px;
   z-index: 5;
   width: calc(65% + 120px);
   transform: translate3d(0, 0, 45px) perspective(100px) scale(0.5);
   opacity: 0;
   pointer-events: none;
   transition: transform 400ms ease, opacity 200ms 150ms ease;
+  width: 70%;
 }
 .pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-4 {
   opacity: 1;
